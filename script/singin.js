@@ -55,18 +55,7 @@
         })
 
         export function userUI(){
-          window.location.href = "../signedIn.html";
-          const profil= document.getElementById("top")
-          const li= document.createElement("li");
-          const photo= document.createElement("img");
-          li.classList.add("nav-item", "navbar-brand", "brand" ,"logo");
-          photo.classList.add("profil1");
-          photo.src="../photos/profil.png";
-          li.addEventListener('mouseover',()=>{
-            console.log("heyy")
-          })
-          li.appendChild(photo);
-          profil.appendChild(li);
+          window.location.href = "./signedIn.html";
           const title= document.getElementById("title");
           title.classList.add("titleS");
         }
