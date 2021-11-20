@@ -1,0 +1,361 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  
+}
+.jumbotron{
+  top: 0%;
+  background-size: cover;
+  height: 91%;
+  width: 100%;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  /* background-image: url(./photos/raouf.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-x: right;
+  background-color: black; */
+}
+.blue{
+  background: rgb(83, 83, 85);
+  width: 40%;
+  height: 100%;
+  box-shadow: 1px 1px 10px #979292;
+}
+.title{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 10%;
+}
+.title h1{
+  font-size:500%;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.lead{
+  float: right;
+  color: rgba(255, 255, 255, 0.644);
+  margin-right: 3%;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+.left{
+  width: 25%;
+  border-left: 3px solid rgb(146, 141, 141);
+  padding: 1%;
+}
+.a{
+  color: black;
+  font-weight: 150;
+  height: auto;
+  width: 95%;
+  transition: .5s;
+  padding: 2%;
+}
+.blogL{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 3%;
+}
+.a:hover{
+  color: rgb(139, 39, 39);
+  text-decoration: none;
+  box-shadow: 1px 1px 10px #979292;
+}
+.right{
+  width: 75%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+h3{
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+  font-size: large;
+}
+img{
+  width: 40%;
+  height: 100%;
+  border-radius: 5%;
+}
+.blog{
+  transition: .7s;
+  margin: 2%;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+.blog:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.logo{
+  width: 30%;
+  height: auto;
+  border-radius: 30%;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.nav2{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+.profil1{
+  border-radius: 40%;
+}
+.nav1{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  bottom: 0;
+}
+nav{
+  margin-top: 0%;
+  box-shadow: 1px 1px 10px #979292;
+  margin-bottom: 0%;
+  width: 100%;
+  /* background-color: black; */
+}
+.desc{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@keyframes slideInFromLeft{
+  0% {
+    transform: translate(-30%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromright{
+  0% {
+    transform: translate(30%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+#photo{
+  transform: skewY(-20deg);
+}
+.image{
+  max-width: 100%;
+	transform: skewY(11deg);
+  right: 0;
+}
+.login{
+  height: 100%;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  flex-direction: column;
+}
+input{
+  background-color:transparent;
+  margin: 5%;
+  border: white;
+  border-radius: 5px;
+  border-bottom: 2px solid white;
+  height: 6%;
+  width: 70%;
+  transition: .7s;
+  padding: 5px;
+  outline: none;
+}
+input:hover{
+  transform: scale(1.02);
+}
+::placeholder{
+  color: white;
+}
+
+.btn{
+  background-color: green;
+  color: white;
+  height: fit-content;
+  border: none;
+  box-shadow:4px 5px 10px #545457;
+  padding: 3%;
+}
+.btn:hover{
+  color: white;
+}
+.login h2{
+  color: white;
+}
+.reg{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  display: flex;
+  flex-direction: row;
+}
+.reg p{
+  color: white;
+}
+#register{
+  color: white;
+  padding: 5%;
+}
+.brand{
+  width: 13%;
+}
+.raouf{
+  left: 0;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  
+}
+.signedIn{
+  width: 70%;
+  background-color: black;
+  animation: .5s ease-out 0s 1 slideInFromright;
+  clip-path: polygon(35% 0%, 0 100%, 100% 100%, 100% 0);
+}
+
+
+@media only screen and (max-width: 850px) {
+  section{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 100%;
+    align-items: center;
+  }
+  .titleS{
+    margin-top: 30%;
+  }
+  .register{
+   margin-top: 20%;
+   background-color: #dfdbdb;
+   border-radius: 10px;
+   box-shadow: 1px 1px 10px #979292;
+   margin-bottom: 80px;
+   width: 90%;
+   height: 100%;
+   padding: 5%;
+  }
+  .register h2, .register h6{
+    color: black;
+  }
+  .register h6:hover{
+    color: #8f8f92;
+  }
+  .title h1{
+    font-size:300%;
+    font-weight:500 ;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  .title{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  .aL{
+    box-shadow: 1px 1px 10px #979292;
+  }
+  .brand{
+    width: 30%;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .jumbotron{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    padding: 5%;
+  }
+  .blogL{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 150px;
+    margin: 5%;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .img{
+    width: 50%;
+    height: 150px;
+    margin: 4%;
+  }
+  .left{
+    width: 100%;
+    margin: 5%;
+    padding: 5%;
+  }
+  .blog{
+    transition: 1s;
+    margin: 2%;
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  h3{
+    font-size: small;
+    font-weight: 150;
+  }
+  .logo{
+    height: 25%;
+    width: 30%;
+  }
+  .right{
+    width: 100%;
+  }
+  .a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 1px 1px 10px #979292;
+    width: 100%;
+  }
+  .desc p, .lead, .hide{
+    visibility: hidden;
+  }
+}
