@@ -256,12 +256,10 @@ button{
     width: 100%;
     align-items: center;
   }
-  .titleS{
-    margin-top: 30%;
-  }
+
   .register{
    margin-top: 20%;
-   background-color: #dfdbdb;
+   background: rgb(83, 83, 85);
    border-radius: 10px;
    box-shadow: 1px 1px 10px #979292;
    margin-bottom: 80px;
@@ -270,12 +268,13 @@ button{
    padding: 5%;
   }
   .register h2, .register h6{
-    color: black;
+    color: white;
   }
   .register h6:hover{
     color: #8f8f92;
   }
   .title h1{
+    color: rgb(83, 83, 85);
     font-size:300%;
     font-weight:500 ;
     animation: 1s ease-out 0s 1 slideInFromLeft;
