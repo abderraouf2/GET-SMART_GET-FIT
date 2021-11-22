@@ -275,7 +275,7 @@ button{
   }
   .title h1{
     color: rgb(83, 83, 85);
-    font-size:300%;
+    font-size:100%;
     font-weight:500 ;
     animation: 1s ease-out 0s 1 slideInFromLeft;
   }
