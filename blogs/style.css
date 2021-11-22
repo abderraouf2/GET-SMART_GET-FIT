@@ -70,15 +70,15 @@ font-family: 'Roboto', sans-serif;
     border-radius: 20%;
   }
   h1{
-    font-size: 30px;
+    font-size: 20px;
     line-height: 150%;
     letter-spacing: 3px;
   }
   h2{
-    font-size: 20px;
+    font-size: 15px;
   }
   p{
-    font-size: small;
+    font-size: x-small;
   }
 }
 .footer{
