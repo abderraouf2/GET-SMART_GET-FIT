@@ -301,7 +301,9 @@ button{
     width: 100%;
     align-items: center;
   }
-
+  .p{
+    font-size: 1.5rem;
+  }
   .register{
    margin-top: 20%;
    background: #1A1B4B;
